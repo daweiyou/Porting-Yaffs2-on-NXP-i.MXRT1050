@@ -1,0 +1,31 @@
+NXP CAS移植Yaffs2文件系统到野火【i.MX RT1052 BTB接口核心板】
+使用板载的QSPI W25Q256JV XIP运行代码，SDRAM W9825G6KH-6作为RW区域，
+使用板载Nand Flash W29N01GVSIAA 8X SEMC接口作为文件系统承载
+
+V1.0:
+创建Freertos工程框架
+集成nand flash底层测试驱动nand_flash_test()
+移植Yaffs2文件系统后创建yaffs_test_main、dtest_main对Yaffs2进行基础测试
+
+V2.0
+集成shell功能方便对Yaffs2文件系统进行测试
+1.SDK 默认的Non-blocking 串口shell不能使能，而且不能与Freertos集成
+  所以移植了基于阻塞/DMA传输的串口驱动，移植了Freertos的CLI shell作为这个项目的shell，并加载测试了下面几个shell命令，
+  help：打印所有支持的命令及其说明
+  task-stats：统计Freertos任务
+  run-time-stats：统计Freertos任务占用时间量。为了支持此功能，还需要使能一个定时器，作为系统时间的测量。这边使能GPT定时器作为时基
+  echo_3_parameters：演示3参数shell 命令
+  echo_parameters：演示任意参数shell命令
+  
+2.在以上shell支持的基础上，对Yaffs加入基础的shell命令支持
+  目前已经完成：
+  format: 格式化并重新挂在文件系统
+  mount：挂载文件系统
+  dir：list当前目录, 也可以跟一个路径参数显示该路径目录，>dir /yaffs_nxp/test
+  cd：进入某一路径，如果跟文件夹名会进入该文件夹，如果跟..参数，会进入上一层路径
+  mkdir:在当前路径下创建目录，后跟目录名称
+  
+
+
+
+

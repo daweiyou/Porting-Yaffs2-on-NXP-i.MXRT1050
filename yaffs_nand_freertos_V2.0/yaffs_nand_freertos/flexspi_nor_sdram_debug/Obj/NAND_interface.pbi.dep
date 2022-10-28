@@ -1,0 +1,2 @@
+NAND_interface.pbi: \
+  C:\SDK\mcuxpresso_workspace\yaffs_nand_freertos\source\yaffs2\port\NAND_interface.c

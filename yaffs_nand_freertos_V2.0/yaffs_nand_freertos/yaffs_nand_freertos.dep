@@ -1,0 +1,3153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>4</fileVersion>
+    <fileChecksum>4106453636</fileChecksum>
+    <configuration>
+        <name>debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\sdmmc\src\fsl_sd.c</file>
+            <file>$PROJ_DIR$\sdmmc\host\fsl_sdmmc_host.c</file>
+            <file>$PROJ_DIR$\sdmmc\src\fsl_sdmmc_common.c</file>
+            <file>$PROJ_DIR$\sdmmc\osa\fsl_sdmmc_osa.c</file>
+            <file>$PROJ_DIR$\utilities\fsl_assert.c</file>
+            <file>$PROJ_DIR$\utilities\fsl_debug_console.c</file>
+            <file>$PROJ_DIR$\startup\startup_MIMXRT1052.s</file>
+            <file>$PROJ_DIR$\debug\obj\tasks.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\startup_MIMXRT1052.o</file>
+            <file>$PROJ_DIR$\debug\obj\tasks.o</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_sd.o</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_common.xcl</file>
+            <file>$PROJ_DIR$\xip\fsl_flexspi_nor_boot.c</file>
+            <file>$PROJ_DIR$\debug\obj\serial_manager.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_cache.o</file>
+            <file>$PROJ_DIR$\debug\obj\lpuart_adapter.o</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_os_abstraction_free_rtos.o</file>
+            <file>$PROJ_DIR$\debug\obj\pin_mux.xcl</file>
+            <file>$PROJ_DIR$\source\sdcard_fatfs_freertos.c</file>
+            <file>$PROJ_DIR$\debug\obj\clock_config.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_str.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\clock_config.o</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_sd_disk.o</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_sdmmc_common.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\stream_buffer.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\system_MIMXRT1052.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\lpuart_adapter.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\serial_manager.o</file>
+            <file>$PROJ_DIR$\utilities\fsl_str.c</file>
+            <file>$PROJ_DIR$\debug\obj\ffunicode.o</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_gpio.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\croutine.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\port.o</file>
+            <file>$PROJ_DIR$\debug\obj\queue.o</file>
+            <file>$PROJ_DIR$\debug\obj\evkbimxrt1050_flexspi_nor_config.xcl</file>
+            <file>$PROJ_DIR$\board\sdmmc_config.c</file>
+            <file>$PROJ_DIR$\debug\obj\system_MIMXRT1052.o</file>
+            <file>$PROJ_DIR$\debug\obj\ff.o</file>
+            <file>$PROJ_DIR$\debug\obj\pin_mux.o</file>
+            <file>$PROJ_DIR$\debug\obj\diskio.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\dcd.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\diskio.o</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_assert.o</file>
+            <file>$PROJ_DIR$\debug\obj\event_groups.o</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_lpuart.o</file>
+            <file>$PROJ_DIR$\debug\yaffs_nand_freertos.out</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_usdhc.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\list.o</file>
+            <file>$PROJ_DIR$\debug\obj\queue.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_str.o</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_common.o</file>
+            <file>$PROJ_DIR$\debug\obj\timers.o</file>
+            <file>$PROJ_DIR$\debug\obj\ffsystem.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\croutine.o</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_sdmmc_host.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\ffsystem.o</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_lpuart.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_clock.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\stream_buffer.o</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_usdhc.o</file>
+            <file>$PROJ_DIR$\debug\obj\serial_port_uart.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_sdmmc_osa.o</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_sdmmc_osa.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\ff.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_debug_console.o</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_sdmmc_common.o</file>
+            <file>$PROJ_DIR$\debug\obj\heap_4.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_gpio.o</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_debug_console.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_flexspi_nor_boot.xcl</file>
+            <file>$PROJ_DIR$\board\dcd.c</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_clock.o</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_assert.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\sdmmc_config.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\board.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\serial_port_uart.o</file>
+            <file>$PROJ_DIR$\debug\obj\timers.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\list.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_sd.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\evkbimxrt1050_flexspi_nor_config.o</file>
+            <file>$PROJ_DIR$\debug\obj\board.o</file>
+            <file>$PROJ_DIR$\debug\obj\generic_list.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\event_groups.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\port.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\dcd.o</file>
+            <file>$PROJ_DIR$\debug\obj\sdmmc_config.o</file>
+            <file>$PROJ_DIR$\debug\obj\sdcard_fatfs_freertos.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\portasm.o</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_sdmmc_host.o</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_sd_disk.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_os_abstraction_free_rtos.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\generic_list.o</file>
+            <file>$PROJ_DIR$\drivers\fsl_gpio.c</file>
+            <file>$PROJ_DIR$\fatfs\source\ff.c</file>
+            <file>$PROJ_DIR$\fatfs\source\fsl_sd_disk\fsl_sd_disk.c</file>
+            <file>$PROJ_DIR$\drivers\fsl_lpuart.c</file>
+            <file>$PROJ_DIR$\drivers\fsl_usdhc.c</file>
+            <file>$PROJ_DIR$\fatfs\source\ffsystem.c</file>
+            <file>$PROJ_DIR$\fatfs\source\ffunicode.c</file>
+            <file>$PROJ_DIR$\fatfs\source\diskio.c</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\portable\IAR\ARM_CM4F\port.c</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\event_groups.c</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\queue.c</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\timers.c</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\croutine.c</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\portable\MemMang\heap_4.c</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\portable\IAR\ARM_CM4F\portasm.s</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\stream_buffer.c</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\tasks.c</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\list.c</file>
+            <file>$PROJ_DIR$\component\osa\fsl_os_abstraction_free_rtos.c</file>
+            <file>$PROJ_DIR$\component\lists\generic_list.c</file>
+            <file>$PROJ_DIR$\component\uart\lpuart_adapter.c</file>
+            <file>$PROJ_DIR$\device\system_MIMXRT1052.c</file>
+            <file>$PROJ_DIR$\component\serial_manager\serial_manager.c</file>
+            <file>$PROJ_DIR$\drivers\fsl_clock.c</file>
+            <file>$PROJ_DIR$\drivers\fsl_common.c</file>
+            <file>$PROJ_DIR$\drivers\fsl_cache.c</file>
+            <file>$PROJ_DIR$\component\serial_manager\serial_port_uart.c</file>
+            <file>$PROJ_DIR$\debug\obj\ffunicode.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\heap_4.o</file>
+            <file>$PROJ_DIR$\debug\obj\sdcard_fatfs_freertos.o</file>
+            <file>$PROJ_DIR$\xip\evkbimxrt1050_flexspi_nor_config.c</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_cache.xcl</file>
+            <file>$PROJ_DIR$\debug\obj\fsl_flexspi_nor_boot.o</file>
+            <file>$PROJ_DIR$\board\clock_config.c</file>
+            <file>$PROJ_DIR$\board\board.c</file>
+            <file>$PROJ_DIR$\board\pin_mux.c</file>
+        </outputs>
+        <file>
+            <name>$PROJ_DIR$\sdmmc\src\fsl_sd.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 10</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 78</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\sdmmc\host\fsl_sdmmc_host.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 88</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 54</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\sdmmc\src\fsl_sdmmc_common.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 65</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 23</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\sdmmc\osa\fsl_sdmmc_osa.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 61</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 62</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\utilities\fsl_assert.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 42</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 72</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\utilities\fsl_debug_console.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 64</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 68</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\startup\startup_MIMXRT1052.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 8</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\xip\fsl_flexspi_nor_boot.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 124</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 69</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\sdcard_fatfs_freertos.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 121</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 86</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\utilities\fsl_str.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 49</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 20</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\board\sdmmc_config.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 85</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 73</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\board\dcd.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 84</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 40</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\fsl_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 67</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 30</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\fatfs\source\ff.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 37</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 63</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\fatfs\source\fsl_sd_disk\fsl_sd_disk.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 22</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 89</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\fsl_lpuart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 44</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 56</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\fsl_usdhc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 59</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 46</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\fatfs\source\ffsystem.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 55</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 52</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\fatfs\source\ffunicode.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 29</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 119</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\fatfs\source\diskio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 41</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 39</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\freertos\freertos_kernel\portable\IAR\ARM_CM4F\port.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 32</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 83</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\freertos\freertos_kernel\event_groups.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 43</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 82</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\freertos\freertos_kernel\queue.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 33</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 48</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\freertos\freertos_kernel\timers.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 51</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 76</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\freertos\freertos_kernel\croutine.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 53</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 31</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\freertos\freertos_kernel\portable\MemMang\heap_4.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 120</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 66</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\freertos\freertos_kernel\portable\IAR\ARM_CM4F\portasm.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 87</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\freertos\freertos_kernel\stream_buffer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 58</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 24</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\freertos\freertos_kernel\tasks.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 9</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 7</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\freertos\freertos_kernel\list.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 47</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 77</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\component\osa\fsl_os_abstraction_free_rtos.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 16</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 90</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\component\lists\generic_list.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 91</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 81</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\component\uart\lpuart_adapter.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 15</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 26</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\device\system_MIMXRT1052.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 25</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\component\serial_manager\serial_manager.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 27</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 13</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\fsl_clock.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 71</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 57</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\fsl_common.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 50</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 11</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\fsl_cache.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 14</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 123</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\component\serial_manager\serial_port_uart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 75</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 60</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 45</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\xip\evkbimxrt1050_flexspi_nor_config.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 79</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 34</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\board\clock_config.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 21</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 19</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\board\board.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 80</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 74</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\board\pin_mux.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 38</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 17</file>
+                </tool>
+            </outputs>
+        </file>
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+    <configuration>
+        <name>flexspi_nor_debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\sdmmc\inc\fsl_sdmmc_spec.h</file>
+            <file>$PROJ_DIR$\sdmmc\src\fsl_sd.c</file>
+            <file>$PROJ_DIR$\sdmmc\host\fsl_sdmmc_host.c</file>
+            <file>$PROJ_DIR$\sdmmc\src\fsl_sdmmc_common.c</file>
+            <file>$PROJ_DIR$\sdmmc\host\fsl_sdmmc_host.h</file>
+            <file>$PROJ_DIR$\sdmmc\inc\fsl_sdmmc_common.h</file>
+            <file>$PROJ_DIR$\sdmmc\osa\fsl_sdmmc_osa.h</file>
+            <file>$PROJ_DIR$\sdmmc\inc\fsl_sd.h</file>
+            <file>$PROJ_DIR$\sdmmc\osa\fsl_sdmmc_osa.c</file>
+            <file>$PROJ_DIR$\utilities\fsl_debug_console.h</file>
+            <file>$PROJ_DIR$\source\FreeRTOSConfig.h</file>
+            <file>$PROJ_DIR$\source\yaffs_freertos.c</file>
+            <file>$PROJ_DIR$\utilities\fsl_assert.c</file>
+            <file>$PROJ_DIR$\source\ffconf.h</file>
+            <file>$PROJ_DIR$\utilities\fsl_debug_console.c</file>
+            <file>$PROJ_DIR$\startup\startup_MIMXRT1052.s</file>
+            <file>$PROJ_DIR$\xip\fsl_flexspi_nor_boot.h</file>
+            <file>$PROJ_DIR$\utilities\fsl_str.h</file>
+            <file>$PROJ_DIR$\xip\fsl_flexspi_nor_boot.c</file>
+            <file>$PROJ_DIR$\utilities\fsl_debug_console_conf.h</file>
+            <file>$PROJ_DIR$\source\sdcard_fatfs_freertos.c</file>
+            <file>$PROJ_DIR$\utilities\fsl_str.c</file>
+            <file>$PROJ_DIR$\board\sdmmc_config.c</file>
+            <file>$PROJ_DIR$\board\dcd.c</file>
+            <file>$PROJ_DIR$\drivers\fsl_gpio.c</file>
+            <file>$PROJ_DIR$\drivers\fsl_gpio.h</file>
+            <file>$PROJ_DIR$\fatfs\source\ff.c</file>
+            <file>$PROJ_DIR$\fatfs\source\fsl_sd_disk\fsl_sd_disk.c</file>
+            <file>$PROJ_DIR$\fatfs\source\ff.h</file>
+            <file>$PROJ_DIR$\drivers\fsl_usdhc.h</file>
+            <file>$PROJ_DIR$\drivers\fsl_lpuart.c</file>
+            <file>$PROJ_DIR$\fatfs\source\fsl_sd_disk\fsl_sd_disk.h</file>
+            <file>$PROJ_DIR$\drivers\fsl_usdhc.c</file>
+            <file>$PROJ_DIR$\fatfs\source\ffsystem.c</file>
+            <file>$PROJ_DIR$\fatfs\source\diskio.h</file>
+            <file>$PROJ_DIR$\drivers\fsl_lpuart.h</file>
+            <file>$PROJ_DIR$\fatfs\source\ffunicode.c</file>
+            <file>$PROJ_DIR$\drivers\fsl_iomuxc.h</file>
+            <file>$PROJ_DIR$\fatfs\source\diskio.c</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\include\mpu_wrappers.h</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\include\portable.h</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\portable\IAR\ARM_CM4F\port.c</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\include\freertos_tasks_c_additions.h</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\event_groups.c</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\queue.c</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\timers.c</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\include\event_groups.h</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\include\croutine.h</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\include\FreeRTOS.h</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\croutine.c</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\portable\MemMang\heap_4.c</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\include\timers.h</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\include\projdefs.h</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\include\stream_buffer.h</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\portable\IAR\ARM_CM4F\portasm.s</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\include\queue.h</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\include\deprecated_definitions.h</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\stream_buffer.c</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\tasks.c</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\portable\IAR\ARM_CM4F\portmacro.h</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\include\semphr.h</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\include\list.h</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\include\stack_macros.h</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\include\task.h</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\list.c</file>
+            <file>$PROJ_DIR$\component\serial_manager\serial_port_uart.h</file>
+            <file>$PROJ_DIR$\component\osa\fsl_os_abstraction.h</file>
+            <file>$PROJ_DIR$\device\MIMXRT1052.h</file>
+            <file>$PROJ_DIR$\CMSIS\mpu_armv7.h</file>
+            <file>$PROJ_DIR$\component\osa\fsl_os_abstraction_config.h</file>
+            <file>$PROJ_DIR$\device\MIMXRT1052_features.h</file>
+            <file>$PROJ_DIR$\component\osa\fsl_os_abstraction_free_rtos.c</file>
+            <file>$PROJ_DIR$\CMSIS\cmsis_version.h</file>
+            <file>$PROJ_DIR$\component\lists\generic_list.c</file>
+            <file>$PROJ_DIR$\component\osa\fsl_os_abstraction_free_rtos.h</file>
+            <file>$PROJ_DIR$\component\serial_manager\serial_manager.h</file>
+            <file>$PROJ_DIR$\component\uart\lpuart_adapter.c</file>
+            <file>$PROJ_DIR$\component\uart\uart.h</file>
+            <file>$PROJ_DIR$\component\serial_manager\serial_port_internal.h</file>
+            <file>$PROJ_DIR$\device\system_MIMXRT1052.c</file>
+            <file>$PROJ_DIR$\device\system_MIMXRT1052.h</file>
+            <file>$PROJ_DIR$\CMSIS\cmsis_compiler.h</file>
+            <file>$PROJ_DIR$\drivers\fsl_cache.h</file>
+            <file>$PROJ_DIR$\CMSIS\cmsis_iccarm.h</file>
+            <file>$PROJ_DIR$\component\serial_manager\serial_manager.c</file>
+            <file>$PROJ_DIR$\component\lists\generic_list.h</file>
+            <file>$PROJ_DIR$\drivers\fsl_clock.c</file>
+            <file>$PROJ_DIR$\drivers\fsl_clock.h</file>
+            <file>$PROJ_DIR$\drivers\fsl_common.c</file>
+            <file>$PROJ_DIR$\CMSIS\core_cm7.h</file>
+            <file>$PROJ_DIR$\drivers\fsl_cache.c</file>
+            <file>$PROJ_DIR$\device\fsl_device_registers.h</file>
+            <file>$PROJ_DIR$\drivers\fsl_common.h</file>
+            <file>$PROJ_DIR$\component\serial_manager\serial_port_uart.c</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\generic_list.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\dcd.xcl</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\diskio.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\fsl_sdmmc_osa.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\fsl_sd_disk.xcl</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tlv.a</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\fsl_usdhc.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\system_MIMXRT1052.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\ff.xcl</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\fsl_debug_console.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\ffunicode.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\clock_config.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\fsl_sdmmc_common.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\croutine.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\serial_port_uart.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\fsl_clock.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\fsl_sdmmc_host.xcl</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\fsl_sdmmc_common.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\sdmmc_config.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\fsl_clock.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\fsl_assert.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\fsl_str.xcl</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\sdmmc_config.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\fsl_lpuart.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\fsl_flexspi_nor_boot.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\sdcard_fatfs_freertos.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\event_groups.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\tasks.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\list.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\fsl_lpuart.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\serial_port_uart.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\fsl_common.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\list.xcl</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\heap_4.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\port.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\serial_manager.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\fsl_assert.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\ffsystem.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\event_groups.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\startup_MIMXRT1052.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\fsl_str.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\diskio.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\fsl_sd.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\fsl_sd.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\board.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\stream_buffer.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\heap_4.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\fsl_sdmmc_host.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\fsl_debug_console.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\board.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\yaffs_nand_freertos.out</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\serial_manager.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\pin_mux.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\fsl_cache.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\fsl_common.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\iar_intrinsics_common.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+            <file>$PROJ_DIR$\xip\evkbimxrt1050_flexspi_nor_config.c</file>
+            <file>$PROJ_DIR$\MIMXRT1052xxxxx_flexspi_nor.icf</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\generic_list.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\croutine.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\yaffs_freertos.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\fsl_sdmmc_osa.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\lpuart_adapter.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\fsl_sd_disk.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\lpuart_adapter.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\yaffs_freertos.xcl</file>
+            <file>$PROJ_DIR$\board\dcd.h</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\portasm.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\fsl_os_abstraction_free_rtos.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\fsl_gpio.o</file>
+            <file>$PROJ_DIR$\board\sdmmc_config.h</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\timers.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\fsl_usdhc.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\sdcard_fatfs_freertos.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\evkbimxrt1050_flexspi_nor_config.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\timers.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_float_setup.h</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\list\yaffs_nand_freertos.map</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\dcd.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\fsl_gpio.xcl</file>
+            <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\assert.h</file>
+            <file>$PROJ_DIR$\xip\evkbimxrt1050_flexspi_nor_config.h</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\ff.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\ffsystem.xcl</file>
+            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\clock_config.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\fsl_os_abstraction_free_rtos.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\ffunicode.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\queue.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\tasks.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\fsl_cache.xcl</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\pin_mux.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\stream_buffer.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\fsl_flexspi_nor_boot.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\evkbimxrt1050_flexspi_nor_config.xcl</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\system_MIMXRT1052.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\queue.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_debug\obj\port.o</file>
+            <file>$PROJ_DIR$\board\board.h</file>
+            <file>$PROJ_DIR$\board\clock_config.c</file>
+            <file>$PROJ_DIR$\board\pin_mux.h</file>
+            <file>$PROJ_DIR$\board\clock_config.h</file>
+            <file>$PROJ_DIR$\board\board.c</file>
+            <file>$PROJ_DIR$\board\pin_mux.c</file>
+        </outputs>
+        <file>
+            <name>$PROJ_DIR$\sdmmc\src\fsl_sd.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 143</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 142</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 7 5 92 191 185 203 96 168 175 114 153 132 208 120 112 157 158 91 67 89 72 81 83 195 68 80 70 87 4 29 6 66 69 85 74 48 10 52 40 56 59 160 159 39 60 55 63 61 46 51 0</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\sdmmc\host\fsl_sdmmc_host.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 147</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 113</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 4 92 191 185 203 96 168 175 114 153 132 208 120 112 157 158 91 67 89 72 81 83 195 68 80 70 87 29 6 66 69 85 74 48 10 52 40 56 59 160 159 39 60 55 63 61 46 51 5 0</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\sdmmc\src\fsl_sdmmc_common.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 115</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 108</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 5 92 191 185 203 96 168 175 114 153 132 208 120 112 157 158 91 67 89 72 81 83 195 68 80 70 87 4 29 6 66 69 85 74 48 10 52 40 56 59 160 159 39 60 55 63 61 46 51 0</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\sdmmc\osa\fsl_sdmmc_osa.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 167</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 98</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 6 92 191 185 203 96 168 175 114 153 132 208 120 112 157 158 91 67 89 72 81 83 195 68 80 70 87 66 69 85 74 48 10 52 40 56 59 160 159 39 60 55 63 61 46 51</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\yaffs_freertos.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 165</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 172</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 166 185 203 96 168 175 208 132 120 7 5 92 191 114 153 112 157 158 91 67 89 72 81 83 195 68 80 70 87 4 29 6 66 69 85 74 48 10 52 40 56 59 160 159 39 60 55 63 61 46 51 0 9 75 65 77 28 13 34 31 212 215 25 179 214</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\utilities\fsl_assert.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 136</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 118</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 92 191 185 203 96 168 175 114 153 132 208 120 112 157 158 91 67 89 72 81 83 195 68 80 70 87 9 75 65 77 48 10 52 40 56 59 160 159 39</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\utilities\fsl_debug_console.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 149</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 105</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 148 112 185 203 96 168 175 208 157 48 158 153 10 52 40 56 59 160 195 159 39 60 55 63 61 19 92 191 114 132 120 91 67 89 72 81 83 68 80 70 87 17 75 65 77 9</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\startup\startup_MIMXRT1052.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 139</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\xip\fsl_flexspi_nor_boot.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 206</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 123</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 16 153 185 203 96 168 175 212 215 92 191 114 132 208 120 112 157 158 91 67 89 72 81 83 195 68 80 70 87 25</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\sdcard_fatfs_freertos.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 182</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 124</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 166 185 203 96 168 175 208 132 120 7 5 92 191 114 153 112 157 158 91 67 89 72 81 83 195 68 80 70 87 4 29 6 66 69 85 74 48 10 52 40 56 59 160 159 39 60 55 63 61 46 51 0 9 75 65 77 28 13 34 31 212 215 25 179 214</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\utilities\fsl_str.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 140</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 119</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 190 185 203 96 168 175 186 148 112 208 157 17 92 191 114 153 132 120 158 91 67 89 72 81 83 195 68 80 70 87 19</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\board\sdmmc_config.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 121</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 116</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 179 7 5 92 191 185 203 96 168 175 114 153 132 208 120 112 157 158 91 67 89 72 81 83 195 68 80 70 87 4 29 6 66 69 85 74 48 10 52 40 56 59 160 159 39 60 55 63 61 46 51 0 215 25 37</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\board\dcd.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 188</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 95</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 173 153 185 203 96 168 175</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\fsl_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 178</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 189</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 25 92 191 185 203 96 168 175 114 153 132 208 120 112 157 158 91 67 89 72 81 83 195 68 80 70 87</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\fatfs\source\ff.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 193</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 103</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 28 13 153 185 203 96 168 175 34 148</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\fatfs\source\fsl_sd_disk\fsl_sd_disk.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 170</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 99</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 13 191 185 203 96 168 175 166 208 132 120 31 153 28 34 7 5 92 114 112 157 158 91 67 89 72 81 83 195 68 80 70 87 4 29 6 66 69 85 74 48 10 52 40 56 59 160 159 39 60 55 63 61 46 51 0</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\fsl_lpuart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 122</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 128</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 35 92 191 185 203 96 168 175 114 153 132 208 120 112 157 158 91 67 89 72 81 83 195 68 80 70 87</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\fsl_usdhc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 101</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 181</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 29 92 191 185 203 96 168 175 114 153 132 208 120 112 157 158 91 67 89 72 81 83 195 68 80 70 87 82</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\fatfs\source\ffsystem.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 137</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 194</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 28 13 153 185 203 96 168 175</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\fatfs\source\ffunicode.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 199</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 106</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 28 13 153 185 203 96 168 175</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\fatfs\source\diskio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 141</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 97</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 13 28 153 185 203 96 168 175 34 31 7 5 92 191 114 132 208 120 112 157 158 91 67 89 72 81 83 195 68 80 70 87 4 29 6 66 69 85 74 48 10 52 40 56 59 160 159 39 60 55 63 61 46 51 0</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\freertos\freertos_kernel\portable\IAR\ARM_CM4F\port.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 211</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 134</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 160 195 203 96 168 175 159 48 158 185 208 153 10 52 40 56 59 39 63 61</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\freertos\freertos_kernel\event_groups.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 138</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 125</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 112 185 203 96 168 175 208 157 48 158 153 10 52 40 56 59 160 195 159 39 63 61 51 46</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\freertos\freertos_kernel\queue.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 200</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 210</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 112 185 203 96 168 175 208 157 132 120 48 158 153 10 52 40 56 59 160 195 159 39 63 61 55</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\freertos\freertos_kernel\timers.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 184</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 180</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 112 185 203 96 168 175 208 157 48 158 153 10 52 40 56 59 160 195 159 39 63 61 55 51</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\freertos\freertos_kernel\croutine.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 109</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 164</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 48 158 185 203 96 168 175 208 153 10 52 40 56 59 160 195 159 39 63 61 47</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\freertos\freertos_kernel\portable\MemMang\heap_4.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 146</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 133</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 112 185 203 96 168 175 208 157 48 158 153 10 52 40 56 59 160 195 159 39 63 61</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\freertos\freertos_kernel\portable\IAR\ARM_CM4F\portasm.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 176</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 10</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\freertos\freertos_kernel\stream_buffer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 145</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 205</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 153 185 203 96 168 175 132 208 120 48 158 10 52 40 56 59 160 195 159 39 63 61 53</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\freertos\freertos_kernel\tasks.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 201</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 126</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 112 185 203 96 168 175 208 157 132 120 48 158 153 10 52 40 56 59 160 195 159 39 63 61 51 62 166 42</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\freertos\freertos_kernel\list.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 127</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 131</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 112 185 203 96 168 175 208 157 48 158 153 10 52 40 56 59 160 195 159 39 61</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\component\osa\fsl_os_abstraction_free_rtos.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 177</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 198</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 92 191 185 203 96 168 175 114 153 132 208 120 112 157 158 91 67 89 72 81 83 195 68 80 70 87 66 69 85 74 48 10 52 40 56 59 160 159 39 60 55 63 61 46 51</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\component\lists\generic_list.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 163</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 94</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 85 92 191 185 203 96 168 175 114 153 132 208 120 112 157 158 91 67 89 72 81 83 195 68 80 70 87</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\component\uart\lpuart_adapter.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 169</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 171</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 92 191 185 203 96 168 175 114 153 132 208 120 112 157 158 91 67 89 72 81 83 195 68 80 70 87 35 77 48 10 52 40 56 59 160 159 39</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\device\system_MIMXRT1052.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 209</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 102</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 153 185 203 96 168 175 91 67 89 72 81 83 195 68 80 70</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\component\serial_manager\serial_manager.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 152</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 135</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 92 191 185 203 96 168 175 114 153 132 208 120 112 157 158 91 67 89 72 81 83 195 68 80 70 87 75 65 77 48 10 52 40 56 59 160 159 39 78</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\fsl_clock.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 111</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 117</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 87 92 191 185 203 96 168 175 114 153 132 208 120 112 157 158 91 67 89 72 81 83 195 68 80 70</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\fsl_common.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 156</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 130</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 92 191 185 203 96 168 175 114 153 132 208 120 112 157 158 91 67 89 72 81 83 195 68 80 70 87</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\fsl_cache.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 155</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 202</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 82 92 191 185 203 96 168 175 114 153 132 208 120 112 157 158 91 67 89 72 81 83 195 68 80 70 87</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\component\serial_manager\serial_port_uart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 110</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 129</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 92 191 185 203 96 168 175 114 153 132 208 120 112 157 158 91 67 89 72 81 83 195 68 80 70 87 75 65 77 48 10 52 40 56 59 160 159 39 78</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\flexspi_nor_debug\yaffs_nand_freertos.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 187</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 162 144 197 109 188 141 138 183 193 137 199 136 155 111 156 149 206 178 122 177 143 170 115 147 167 140 101 163 146 127 169 204 211 176 200 121 152 110 139 145 209 201 184 165 196 174 100 104</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 187 151</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\xip\evkbimxrt1050_flexspi_nor_config.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 183</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 207</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 192 153 185 203 96 168 175 114 92 191 132 208 120 112 157 158 91 67 89 72 81 83 195 68 80 70 87</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\board\clock_config.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 197</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 107</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 215 92 191 185 203 96 168 175 114 153 132 208 120 112 157 158 91 67 89 72 81 83 195 68 80 70 87 37</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\board\board.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 144</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 150</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 92 191 185 203 96 168 175 114 153 132 208 120 112 157 158 91 67 89 72 81 83 195 68 80 70 87 9 75 65 77 48 10 52 40 56 59 160 159 39 212 215 25 37</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\board\pin_mux.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 204</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 154</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 92 191 185 203 96 168 175 114 153 132 208 120 112 157 158 91 67 89 72 81 83 195 68 80 70 87 37 214</file>
+                </tool>
+            </inputs>
+        </file>
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+    <configuration>
+        <name>flexspi_nor_release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+    <configuration>
+        <name>flexspi_nor_sdram_debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\source\bsp\nand\fsl_semc_nand_flash.c</file>
+            <file>$PROJ_DIR$\source\yaffs2\port\test_framework\dtest.c</file>
+            <file>$PROJ_DIR$\sdmmc\src\fsl_sd.c</file>
+            <file>$PROJ_DIR$\source\bsp\nand\nand_flash_test.c</file>
+            <file>$PROJ_DIR$\sdmmc\host\fsl_sdmmc_host.c</file>
+            <file>$PROJ_DIR$\source\bsp\led\bsp_led.c</file>
+            <file>$PROJ_DIR$\source\bsp\private_uart\private_lpuart_freertos.c</file>
+            <file>$PROJ_DIR$\sdmmc\src\fsl_sdmmc_common.c</file>
+            <file>$PROJ_DIR$\source\cli\systimer.c</file>
+            <file>$PROJ_DIR$\source\cli\UARTCommandConsole.c</file>
+            <file>$PROJ_DIR$\source\yaffs2\port\yaffs_nand_drv.c</file>
+            <file>$PROJ_DIR$\source\yaffs2\port\yaffs_osglue_freertos.c</file>
+            <file>$PROJ_DIR$\source\yaffs2\port\test_framework\yaffs_test.c</file>
+            <file>$PROJ_DIR$\source\bsp\nand\bsp_nand.c</file>
+            <file>$PROJ_DIR$\source\yaffs2\port\yaffscfg2k.c</file>
+            <file>$PROJ_DIR$\source\cli\Basic-CLI-commands.c</file>
+            <file>$PROJ_DIR$\sdmmc\osa\fsl_sdmmc_osa.c</file>
+            <file>$PROJ_DIR$\source\cli\File-Related-CLI-commands.c</file>
+            <file>$PROJ_DIR$\source\yaffs2\yaffs_yaffs1.c</file>
+            <file>$PROJ_DIR$\source\FreeRTOSConfig.h</file>
+            <file>$PROJ_DIR$\source\yaffs2\yaffs_yaffs2.c</file>
+            <file>$PROJ_DIR$\source\yaffs2\yaffsfs.c</file>
+            <file>$PROJ_DIR$\source\yaffs_freertos.c</file>
+            <file>$PROJ_DIR$\utilities\fsl_assert.c</file>
+            <file>$PROJ_DIR$\source\ffconf.h</file>
+            <file>$PROJ_DIR$\utilities\fsl_debug_console.c</file>
+            <file>$PROJ_DIR$\startup\startup_MIMXRT1052.s</file>
+            <file>$PROJ_DIR$\utilities\fsl_shell.c</file>
+            <file>$PROJ_DIR$\xip\fsl_flexspi_nor_boot.c</file>
+            <file>$PROJ_DIR$\xip\fire_imxrt1052_sdram_ini_dcd.c</file>
+            <file>$PROJ_DIR$\xip\fire_imxrt1052_spiflash_config.c</file>
+            <file>$PROJ_DIR$\utilities\fsl_str.c</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\pin_mux.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\port.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\fsl_cache.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\event_groups.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\yaffs_nand.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\fsl_lpuart.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\yaffs_osglue_freertos.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\yaffs_freertos.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\timers.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\fsl_usdhc.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\fsl_assert.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Exe\yaffs_nand_freertos.out</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\fsl_assert.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\diskio.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\croutine.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\bsp_led.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\nand_flash_test.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\yaffs_nand.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\fsl_sd.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\event_groups.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\yaffs_packedtags1.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\fsl_sdmmc_host.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\yaffs_bitmap.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\ff.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\fsl_common.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\heap_4.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\bsp_led.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\serial_port_uart.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\fire_imxrt1052_sdram_ini_dcd.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\yaffs_nameval.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\yaffs_packedtags2.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\yaffs_tagsmarshall.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\yaffs_packedtags1.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\nand_flash_test.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\serial_manager.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\portasm.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\fsl_sd_disk.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\fsl_sdmmc_osa.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\yaffs_verify.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\yaffs_osglue_freertos.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\yaffsfs.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\fsl_debug_console.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\yaffsfs.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\timers.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\bsp_nand.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\generic_list.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\lpuart_adapter.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\diskio.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\yaffs_yaffs2.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\yaffs_tagscompat.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\yaffs_summary.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\yaffs_guts.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\fsl_semc_nand_flash.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\yaffs_test.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\yaffs_attribs.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\fsl_flexspi_nor_boot.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\ffsystem.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\port.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\fsl_gpio.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\fsl_lpuart.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\fsl_os_abstraction_free_rtos.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\yaffs_attribs.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\yaffs_yaffs2.o</file>
+            <file>$PROJ_DIR$\drivers\fsl_gpio.c</file>
+            <file>$PROJ_DIR$\fatfs\source\ff.c</file>
+            <file>$PROJ_DIR$\fatfs\source\fsl_sd_disk\fsl_sd_disk.c</file>
+            <file>$PROJ_DIR$\drivers\fsl_semc_old.c</file>
+            <file>$PROJ_DIR$\drivers\fsl_lpuart.c</file>
+            <file>$PROJ_DIR$\drivers\fsl_usdhc.c</file>
+            <file>$PROJ_DIR$\fatfs\source\ffsystem.c</file>
+            <file>$PROJ_DIR$\freertos\FreeRTOS-Plus-CLI\FreeRTOS_CLI.c</file>
+            <file>$PROJ_DIR$\fatfs\source\ffunicode.c</file>
+            <file>$PROJ_DIR$\fatfs\source\diskio.c</file>
+            <file>$PROJ_DIR$\drivers\fsl_dmamux.c</file>
+            <file>$PROJ_DIR$\drivers\fsl_gpt.c</file>
+            <file>$PROJ_DIR$\drivers\fsl_lpuart_edma.c</file>
+            <file>$PROJ_DIR$\drivers\fsl_edma.c</file>
+            <file>$PROJ_DIR$\source\yaffs2\yaffs_bitmap.c</file>
+            <file>$PROJ_DIR$\source\yaffs2\yaffs_attribs.c</file>
+            <file>$PROJ_DIR$\source\yaffs2\yaffs_checkptrw.c</file>
+            <file>$PROJ_DIR$\source\yaffs2\yaffs_ecc.c</file>
+            <file>$PROJ_DIR$\source\yaffs2\yaffs_endian.c</file>
+            <file>$PROJ_DIR$\source\yaffs2\yaffs_allocator.c</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\portable\IAR\ARM_CM4F\port.c</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\event_groups.c</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\queue.c</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\timers.c</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\croutine.c</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\portable\MemMang\heap_4.c</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\portable\IAR\ARM_CM4F\portasm.s</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\stream_buffer.c</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\tasks.c</file>
+            <file>$PROJ_DIR$\freertos\freertos_kernel\list.c</file>
+            <file>$PROJ_DIR$\source\yaffs2\yaffs_guts.c</file>
+            <file>$PROJ_DIR$\source\yaffs2\yaffs_nameval.c</file>
+            <file>$PROJ_DIR$\source\yaffs2\yaffs_error.c</file>
+            <file>$PROJ_DIR$\source\yaffs2\yaffs_hweight.c</file>
+            <file>$PROJ_DIR$\source\yaffs2\yaffs_nand.c</file>
+            <file>$PROJ_DIR$\source\yaffs2\yaffs_packedtags2.c</file>
+            <file>$PROJ_DIR$\source\yaffs2\yaffs_verify.c</file>
+            <file>$PROJ_DIR$\source\yaffs2\yaffs_packedtags1.c</file>
+            <file>$PROJ_DIR$\source\yaffs2\yaffs_summary.c</file>
+            <file>$PROJ_DIR$\source\yaffs2\yaffs_tagscompat.c</file>
+            <file>$PROJ_DIR$\source\yaffs2\yaffs_tagsmarshall.c</file>
+            <file>$PROJ_DIR$\component\osa\fsl_os_abstraction_free_rtos.c</file>
+            <file>$PROJ_DIR$\component\lists\generic_list.c</file>
+            <file>$PROJ_DIR$\component\uart\lpuart_adapter.c</file>
+            <file>$PROJ_DIR$\device\system_MIMXRT1052.c</file>
+            <file>$PROJ_DIR$\component\serial_manager\serial_manager.c</file>
+            <file>$PROJ_DIR$\drivers\fsl_clock.c</file>
+            <file>$PROJ_DIR$\drivers\fsl_common.c</file>
+            <file>$PROJ_DIR$\drivers\fsl_cache.c</file>
+            <file>$PROJ_DIR$\component\serial_manager\serial_port_uart.c</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\yaffs_test.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\clock_config.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\system_MIMXRT1052.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\Basic-CLI-commands.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\File-Related-CLI-commands.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\fsl_edma.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\Basic-CLI-commands.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\serial_port_uart.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\File-Related-CLI-commands.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\yaffs_ecc.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\yaffs_allocator.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\yaffs_guts.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\fsl_semc_nand_flash.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\startup_MIMXRT1052.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\yaffs_summary.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\fsl_sdmmc_host.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\ffunicode.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\yaffscfg2k.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\fsl_str.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\fsl_gpio.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\fire_imxrt1052_spiflash_config.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\yaffs_nand_drv.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\yaffs_endian.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\yaffs_tagsmarshall.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\fsl_sdmmc_osa.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\tasks.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\yaffs_error.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\generic_list.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\bsp_nand.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\stream_buffer.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\yaffs_bitmap.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\ffunicode.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\board.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\fsl_clock.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\yaffs_nameval.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\yaffs_yaffs1.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\fsl_sdmmc_common.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\fsl_sd.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\fsl_semc_old.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\yaffs_nand_freertos.pbd</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\yaffscfg2k.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\fsl_common.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\list.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\fsl_str.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\system_MIMXRT1052.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\yaffs_tagscompat.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\fsl_shell.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\queue.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\ff.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\fsl_os_abstraction_free_rtos.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\fsl_shell.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\fsl_debug_console.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\fsl_clock.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\lpuart_adapter.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\fsl_semc_old.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\fire_imxrt1052_sdram_ini_dcd.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\dtest.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\fsl_flexspi_nor_boot.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\tasks.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\yaffs_allocator.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\dtest.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Exe\yaffs_nand_freertos.srec</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\fsl_sdmmc_common.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\pin_mux.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\fsl_usdhc.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\queue.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\serial_manager.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\yaffs_error.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\fsl_cache.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\heap_4.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\ffsystem.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\yaffs_hweight.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\yaffs_endian.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\yaffs_freertos.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\UARTCommandConsole.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\yaffs_verify.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\yaffs_nand_drv.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\stream_buffer.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\private_lpuart_freertos.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\yaffs_hweight.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\fsl_edma.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\FreeRTOS_CLI.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\fsl_dmamux.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\yaffs_checkptrw.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\fsl_gpt.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\systimer.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\list.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\yaffs_checkptrw.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\board.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\FreeRTOS_CLI.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\UARTCommandConsole.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\fsl_gpt.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\clock_config.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\croutine.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\fsl_sd_disk.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\fsl_lpuart_edma.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\fsl_dmamux.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\fsl_lpuart_edma.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\fire_imxrt1052_spiflash_config.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\yaffs_packedtags2.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\yaffs_yaffs1.o</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\yaffs_ecc.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\private_lpuart_freertos.xcl</file>
+            <file>$PROJ_DIR$\flexspi_nor_sdram_debug\Obj\systimer.xcl</file>
+            <file>$PROJ_DIR$\board\clock_config.c</file>
+            <file>$PROJ_DIR$\board\board.c</file>
+            <file>$PROJ_DIR$\board\pin_mux.c</file>
+        </outputs>
+        <file>
+            <name>$PROJ_DIR$\source\bsp\nand\fsl_semc_nand_flash.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 157</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 84</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\yaffs2\port\test_framework\dtest.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 205</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 201</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\sdmmc\src\fsl_sd.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 182</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 50</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\bsp\nand\nand_flash_test.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 48</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 65</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\sdmmc\host\fsl_sdmmc_host.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 53</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 160</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\bsp\led\bsp_led.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 58</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 47</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\bsp\private_uart\private_lpuart_freertos.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 223</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 247</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\sdmmc\src\fsl_sdmmc_common.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 207</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 181</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\cli\systimer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 230</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 248</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\cli\UARTCommandConsole.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 235</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 219</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\yaffs2\port\yaffs_nand_drv.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 221</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 166</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\yaffs2\port\yaffs_osglue_freertos.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 38</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 71</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\yaffs2\port\test_framework\yaffs_test.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 145</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 85</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\bsp\nand\bsp_nand.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 76</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 173</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\yaffs2\port\yaffscfg2k.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 185</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 162</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\cli\Basic-CLI-commands.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 151</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 148</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\sdmmc\osa\fsl_sdmmc_osa.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 169</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 69</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\cli\File-Related-CLI-commands.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 149</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 153</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\yaffs2\yaffs_yaffs1.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 245</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 180</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\yaffs2\yaffs_yaffs2.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 94</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 80</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\yaffs2\yaffsfs.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 74</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 72</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\yaffs_freertos.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 39</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 218</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\utilities\fsl_assert.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 42</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 44</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\utilities\fsl_debug_console.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 73</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 196</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\startup\startup_MIMXRT1052.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 158</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\utilities\fsl_shell.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 191</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 195</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\xip\fsl_flexspi_nor_boot.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 202</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 87</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\xip\fire_imxrt1052_sdram_ini_dcd.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 200</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 60</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\xip\fire_imxrt1052_spiflash_config.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 165</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 243</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\utilities\fsl_str.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 188</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 163</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\flexspi_nor_sdram_debug\Exe\yaffs_nand_freertos.out</name>
+            <outputs>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 206</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\fsl_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 90</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 164</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\fatfs\source\ff.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 193</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 55</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\fatfs\source\fsl_sd_disk\fsl_sd_disk.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 68</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 239</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\fsl_semc_old.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 183</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 199</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\fsl_lpuart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 37</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 91</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\fsl_usdhc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 41</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 209</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\fatfs\source\ffsystem.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 215</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 88</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\freertos\FreeRTOS-Plus-CLI\FreeRTOS_CLI.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 226</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 234</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\fatfs\source\ffunicode.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 161</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 176</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\fatfs\source\diskio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 45</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 79</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\fsl_dmamux.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 227</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 241</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\fsl_gpt.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 229</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 236</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\fsl_lpuart_edma.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 240</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 242</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\fsl_edma.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 225</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\yaffs2\yaffs_bitmap.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 175</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 54</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\yaffs2\yaffs_attribs.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 93</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 86</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\yaffs2\yaffs_checkptrw.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 228</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 232</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\yaffs2\yaffs_ecc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 154</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 246</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\yaffs2\yaffs_endian.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 167</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 217</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\yaffs2\yaffs_allocator.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 155</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 204</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\freertos\freertos_kernel\portable\IAR\ARM_CM4F\port.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 33</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 89</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\freertos\freertos_kernel\event_groups.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 35</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 51</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\freertos\freertos_kernel\queue.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 192</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 210</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\freertos\freertos_kernel\timers.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 75</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 40</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\freertos\freertos_kernel\croutine.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 238</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 46</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\freertos\freertos_kernel\portable\MemMang\heap_4.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 57</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 214</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\freertos\freertos_kernel\portable\IAR\ARM_CM4F\portasm.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 67</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\freertos\freertos_kernel\stream_buffer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 222</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 174</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\freertos\freertos_kernel\tasks.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 170</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 203</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\freertos\freertos_kernel\list.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 187</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 231</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\yaffs2\yaffs_guts.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 83</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 156</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\yaffs2\yaffs_nameval.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 61</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 179</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\yaffs2\yaffs_error.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 171</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 212</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\yaffs2\yaffs_hweight.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 216</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 224</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\yaffs2\yaffs_nand.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 49</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 36</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\yaffs2\yaffs_packedtags2.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 62</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 244</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\yaffs2\yaffs_verify.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 70</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 220</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\yaffs2\yaffs_packedtags1.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 52</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 64</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\yaffs2\yaffs_summary.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 159</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 82</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\yaffs2\yaffs_tagscompat.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 81</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 190</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\yaffs2\yaffs_tagsmarshall.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 63</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 168</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\component\osa\fsl_os_abstraction_free_rtos.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 194</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 92</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\component\lists\generic_list.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 77</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 172</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\component\uart\lpuart_adapter.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 78</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 198</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\device\system_MIMXRT1052.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 189</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 147</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\component\serial_manager\serial_manager.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 66</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 211</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\fsl_clock.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 197</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 178</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\fsl_common.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 56</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 186</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\fsl_cache.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 213</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 34</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\component\serial_manager\serial_port_uart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 152</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 59</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 43</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\board\clock_config.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 237</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 146</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\board\board.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 177</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 233</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\board\pin_mux.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 32</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 208</file>
+                </tool>
+            </outputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+    <configuration>
+        <name>sdram_debug</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+    <configuration>
+        <name>sdram_release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>

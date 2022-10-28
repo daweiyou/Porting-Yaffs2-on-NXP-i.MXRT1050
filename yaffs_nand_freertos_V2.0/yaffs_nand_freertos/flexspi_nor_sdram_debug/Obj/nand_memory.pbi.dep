@@ -1,0 +1,2 @@
+nand_memory.pbi: \
+  C:\SDK\mcuxpresso_workspace\yaffs_nand_freertos\source\yaffs2\nand_memory.c

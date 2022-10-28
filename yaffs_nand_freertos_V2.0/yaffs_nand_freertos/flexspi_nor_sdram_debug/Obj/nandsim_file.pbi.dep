@@ -1,0 +1,10 @@
+nandsim_file.pbi: \
+  C:\SDK\mcuxpresso_workspace\yaffs_nand_freertos\source\yaffs2\nandsim_file.c \
+  C:\SDK\mcuxpresso_workspace\yaffs_nand_freertos\source\yaffs2/nandsim_file.h \
+  C:\SDK\mcuxpresso_workspace\yaffs_nand_freertos\source\yaffs2/nand_chip.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\stdint.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\ycheck.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\yvals.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\DLib_Defaults.h \
+  C:\\Program\ Files\ (x86)\\IAR\ Systems\\Embedded\ Workbench\ 8.3\\arm\\inc\\c\\DLib_Config_Normal.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\DLib_Product.h

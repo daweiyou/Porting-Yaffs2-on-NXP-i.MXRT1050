@@ -1,0 +1,9 @@
+nanddrv.pbi: \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\DLib_Product.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\DLib_Defaults.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\yvals.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\ycheck.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\stdint.h \
+  C:\SDK\mcuxpresso_workspace\yaffs_nand_freertos\source\yaffs2\nand_chip.h \
+  C:\SDK\mcuxpresso_workspace\yaffs_nand_freertos\source\yaffs2\nanddrv.h \
+  C:\SDK\mcuxpresso_workspace\yaffs_nand_freertos\source\yaffs2\nanddrv.c
